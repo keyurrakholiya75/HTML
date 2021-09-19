@@ -1,0 +1,18 @@
+.box p{
+    font-family: 'popins';
+    margin: 50px 300px auto ;
+    padding: 20px;
+   border-right:50px red solid;
+   border-left:50px green solid; 
+  
+   
+}
+.box h1{
+    margin:50px 650px auto  ;
+    padding: 0px 0px 0px 15px;
+    border-right:20px solid;
+    border-left: 20px solid;
+    border-color: red;
+
+
+}
