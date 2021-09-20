@@ -1,0 +1,29 @@
+*{
+}
+
+
+
+.p{
+	text-align: center;
+	font-size: 25px;
+	align-content: center;
+	color: white;
+	margin-top: 50px;
+	padding: 0px;
+	background-color: darkblue;
+	border-style: dashed;
+	
+
+}
+
+i{
+	color: yellow;
+}
+
+u{
+	color: red;
+}
+
+b{
+	color: violet;
+}
