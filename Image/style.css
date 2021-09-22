@@ -8,23 +8,22 @@
 
 
 
+
 .img{
 
 	background-image: photo5.jpg;
 	height: 100vh;
-	width: 100px;
+	width: 50px;
 	margin: 0px;
 	padding: 0px;
 	position: absolute;
-	top: 10%;
-	left: 15%;
+	top: 20%;
 
+}
 
+.color{
 
-
-	}
-
-img:hover{
-
-	transform: scaleX(-1);
+	color:blue;
+	text-align: center;
+	text-size-adjust: 10px;
 }
