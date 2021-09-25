@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form>
+	<fieldset>
+		<legend>Your details</legend>
+		<ol>
+			<li>
+				<label for="fname">Name</label>
+				<input id="f&lname" name="name" type="text" placeholder="First and last name" required autofocus>
+			</li>
+			<li>
+				<label for="email">Email</label>
+				<input id="emailid" name="email" type="email" placeholder="example@domain.com" required>
+			</li>
+			<li>
+				<label for="phone">Phone</label>
+				<input id="Number" name="Number" type="tel" placeholder="Eg. +447500000000" required>
+			</li>
+		</ol>
+	</fieldset>
+
+	<fieldset>
+		<legend>Delivery address</legend>
+		<ol>
+			<li>
+				<label for="Address">Address</label>
+				<textarea id="Address" name=Address rows="4" required></textarea>
+			</li>
+			<li>
+				<label for="Postcode">Post code</label>
+				<input id="Postcode" name="Postcode" type=text required>
+			</li>
+			<li>
+				<label for="Country">Country</label>
+				<input id="Country" name="Country" type=text required>
+			</li>
+		</ol>
+	</fieldset>
+
+	<fieldset>
+		<legend>Card details</legend>
+		<ol>		
+			<li>
+				<fieldset>
+					<legend>Card type</legend>
+					<ol>
+						<li>
+							<input id="Visa" name="Cardtype" type=radio>
+							<label for="Visa">VISA</label>
+						</li>
+						<li>
+							<input id="AE" name="Cardtype" type=radio>
+							<label for="AE">AmEx</label>
+						</li>
+						<li>
+							<input id="Mastercard" name="Card" type=radio>
+							<label for="Mastercard">Mastercard</label>
+						</li>
+					</ol>
+				</fieldset>
+			</li>
+
+			<li>
+				<label for="Cardnumber">Card number</label>
+				<input id="Cardnumber" name="Cardnumber" type="number" required>
+			</li>
+			<li>
+				<label for="security">Security code</label>
+				<input id="Security" name="security" type=number required>
+			</li>
+			<li>
+				<label for="Cardname">Name on card</label>
+				<input id="Cardname" name="Cardname" type=text 
+				placeholder="Exact name as on the card" required>
+			</li>
+		</ol>
+	</fieldset>
+	<fieldset>
+		<input type="submit" value="Buy it!">
+	</fieldset>
+</form>
+</body>
+</html>
