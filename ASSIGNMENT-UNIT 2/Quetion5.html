@@ -2,100 +2,170 @@
     <head>
         <title>Quetion-1</title>
     </head>
-<body>
-    <table border="0"> 
+<body  bgcolor="pink">
+    <table align="center"> 
         <tr> 
             <td> 	
-                Username : 
+                <h2 align="center">Account Inforamtion</h2>
+            </td> 
+            <td> 
+                 
+        </tr> 
+        <tr> 
+            <td> 	
+                Login Name* : 
             </td> 
             <td> 
                 <input type="text" name="fname"> 
         </tr> 
         <tr> 
             <td> 
-                Password:
+                Password*:
             </td> 
             <td> 
             <input type="Password" name="pwd"> 
         </tr> 
         <tr> 
-            <td>City of <br> 
-                Employment:
+            <td>Conform Password*:
             </td> 
             <td> 
-            <input type="text" name="city"> 
+            <input type="password" name="pwd"> 
         </tr>
-         
+        <tr> 
+            <td>Email Address*:
+            </td> 
+            <td> 
+            <input type="email" name="mail"> 
+        </tr>
+        <tr> 
+            <td>Conform Email*:
+            </td> 
+            <td> 
+            <input type="email" name="mail"> 
+        </tr>
         <tr>
-            <td>Web Server</td>
-            <td><select name="Web Server">
-            <option value="-1" selected>--Choose a server</option>
-            <option value="Chrome">Chrome</option>
-            <option value="Enternet Explorer">Enternet Explorer</option>
-            <option value="Mozila Firefox">Mozila Firefox</option>
-                </select>
-            </td>
-        </tr>
+            <td>
+        <h2 align="center">Contect Information</h2>
+    </td>
+    </tr>
+    <tr> 
+        <td> 	
+            First Name* : 
+        </td> 
+        <td> 
+            <input type="text" name="fname"> 
+    </tr> 
+    <tr> 
+        <td> 	
+            Last Name* : 
+        </td> 
+        <td> 
+            <input type="text" name="fname"> 
+    </tr> 
+    <tr> 
+        <td> 	
+            Address 1* : 
+        </td> 
+        <td> 
+            <input type="text" name="fname"> 
+    </tr> 
+    <tr> 
+        <td> 	
+            Address 2* : 
+        </td> 
+        <td> 
+            <input type="text" name="fname"> 
+    </tr> 
+    <tr> 
+        <td> 	
+            City* : 
+        </td> 
+        <td> 
+            <input type="text" name="fname"> 
+    </tr> 
+    <tr> 
+        <td> 	
+            State or Province* : 
+        </td> 
+        <td> 
+            <select name="Select" id="Silect">
+            <option value="Select">Select</option>
+          </select>
+    </tr> 
+    <tr> 
+        <td> 	
+            Zip* : 
+        </td> 
+        <td> 
+            <input type="zip" name="fname"> 
+    </tr> 
+    <tr> 
+        <td> 	
+            Country* : 
+        </td> 
+        <td> 
+            <input type="text" name="fname"> 
+    </tr>
+
+    <tr>
+        <td>
+            Gender* :
+        
+            <input type="radio" name="gender" value="male"> Male &nbsp;
+            <input type="radio" name="gender" value="female"> Female
+        </td>
+    </tr>
+    <tr>
+        <td>
+    <h2 align="center">Misc.Information</h2>
+</td>
+</tr>
+
+<tr> 
+    <td> 	
+        Annual Household Income* : 
+    </td> 
+    <td> 
+        <select name="Selected" id="Selected">
+        <option value="Select">Select</option>
+      </select>
+</tr> 
+<tr>
+    <td>
+        Interests :
+  <input type="checkbox" id="shope" name="Shop" value="shop">
+  <label for="shoping"> Shopping/Fashion</label>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Shorts</label>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Travel</label>
+
+    </td>
+    
+</tr>
+<tr>
+    <td>
+        Interests :
+  <input type="checkbox" id="shope" name="Shop" value="shop">
+  <label for="vehicle1">Red</label>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Green</label>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Brown</label>
+
+    </td>
+    
+</tr>
+<tr> 
+    <td> 	
+         
+    </td> 
+    <td> 
+        <input type="submit" name="fname"> 
+        <input type="reset" name="fname"> 
+</tr>
         </table>
 
-        <table><br>
-            
-
-        <tr> 
-            <td rowspan="4">Please Specify <br> your role</td> 
-            <td>
-            <input type="radio" name="role" value="A"> Admin 
-            </td> 
-        </tr> 
-            <td> 
-            <input type="radio" name="role" value="E"> Engineer
-            </td> 
-        </tr> 
-        <tr> 
-            <td> 
-            <input type="radio" name="role" value="M"> Manager 
-            </td> 
-        </tr> 
-        <tr> 
-            <td> 
-            <input type="radio" name="role" value="G"> Guest
-            </td> 
-        <tr>
-        </tr> 
-
-    </table>
-       
-    <table><br>
-
-        <tr> 
-            <td rowspan="4">Single Sign-on<br>to the following </td> 
-            <td>
-            <input type="checkbox" name="role" value="M"> Mail
-            </td> 
-        </tr> 
-            <td> 
-            <input type="checkbox" name="role" value="P">Payroll
-            </td> 
-        </tr> 
-       
-        <tr> 
-            <td> 
-            <input type="checkbox" name="role" value="S">Self-service
-            </td> 
-        <tr> 
-        </tr>
-    </table>
-    <table>
-        <tr>
-            <td><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    
-                <input type="submit" value="Login">
-                <input type="submit" value="submit">
-            </td>     
-        </tr>   
-    </table>
- 
+    
 </body>
 </html>
